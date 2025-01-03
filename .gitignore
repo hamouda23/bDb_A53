@@ -1,7 +1,9 @@
 __pycache__/
-venv/
+# Ignorer l'environnement virtuel
+.venv/
+# Ignorer les fichiers système ou d'éditeur
 *.pyc
 .DS_Store
 *.log
-.venv/
+# Ignorer les fichiers spécifiques à DVC
 /data
