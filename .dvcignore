@@ -1,3 +1,25 @@
 # Add patterns of files dvc should ignore, which could improve
 # the performance. Learn more at
 # https://dvc.org/doc/user-guide/dvcignore
+# Fichiers temporaires
+*.tmp
+*.log
+*.bak
+
+# Fichiers système
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dossiers de l'éditeur
+.vscode/
+.idea/
+*.ipynb_checkpoints
+
+# Données brutes ou temporaires
+data/raw/
+data/temp/
+
+# Sorties intermédiaires
+models/temp/
+outputs/
